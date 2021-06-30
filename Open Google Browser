@@ -7,7 +7,7 @@ public class TestSelenium {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Selenium\\chromedriver_win32\\chromedriver.exe");   //Finding path of the chrome driver
-		WebDriver driver = new ChromeDriver(); // Instantiate chrome browser using webdriver
-		driver.get("https://www.google.com"); // Open Google Browser
+		WebDriver driver = new ChromeDriver(); // Instantiate chrome browser using webdriver - driver object of type chrome 
+		driver.get("https://www.google.com"); // Open Google Browser - interact with chrome
 		driver.quit();
 	
