@@ -1,3 +1,5 @@
+//All UI elements present in the Web Page - HTML Elements 
+
 package selenium;
 
 import org.openqa.selenium.By;
