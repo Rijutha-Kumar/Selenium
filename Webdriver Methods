@@ -1,3 +1,6 @@
+// Tool for testing web applications across different browsers using different programming languages.
+// The framework operates by accepting commands, sending those commands to a browser, and interacting with applications.
+
 package selenium;
 
 import org.openqa.selenium.WebDriver;
